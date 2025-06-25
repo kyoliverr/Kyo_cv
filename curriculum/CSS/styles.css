@@ -10,7 +10,7 @@
   --text-color: #403A3A;
   --text-color-light: #707070;
   --container-color: #FAFAFA;
-  --container-color-alt: #F0EFEF;
+  --container-color-alt: #F0EFEF; 
   --body-color: #FCFCFC;
 
   /*========== Font and typography ==========*/
@@ -36,7 +36,7 @@
   --z-fixed: 100;
 }
 
-/*========== BASE ==========*/
+  /*========== BASE ==========*/
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -177,7 +177,7 @@ body.scale-cv {
 }
 
 .scale-cv .skills-name {
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-1)
 }
 
 .scale-cv .interests-container {
@@ -220,8 +220,12 @@ img {
 /*========== CLASS CSS ==========*/
 
 .section {
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
 }
+
+.section2{ padding: 1.2rem 0 0.2rem 0;}
+
+.section3{ padding: 0.5rem 0 1.2rem 0;}
 
 .section-title {
   font-size: var(--h2-font-size);
@@ -273,7 +277,7 @@ img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem;
     background-color: var(--body-color);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
     border-radius: 1rem 1rem 0 0;
@@ -343,7 +347,7 @@ img {
 }
 
 .home-data {
-  gap: .5rem;
+  gap: .2rem;
   text-align: center;
 }
 
@@ -451,7 +455,7 @@ img {
 .experience-line {
   display: block;
   width: 2px;
-  height: 110%;
+  height: 100%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
@@ -480,7 +484,7 @@ img {
 
 .skills-content,
 .languages-content {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .languages-content {
